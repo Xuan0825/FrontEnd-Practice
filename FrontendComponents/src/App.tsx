@@ -1,7 +1,7 @@
 import "./App.css";
-
+import Temperature from "./components/temperature";
 function App() {
-  return <div></div>;
+  return <Temperature />;
 }
 
 export default App;
