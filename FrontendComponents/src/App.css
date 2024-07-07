@@ -17,3 +17,17 @@
   color: purple;
   cursor: pointer;
 }
+
+.gridContainer {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  width: 500px;
+  height: 500px;
+  gap: 20px;
+}
+
+.gridItem {
+  display: flex;
+  border: 2px solid black;
+}
