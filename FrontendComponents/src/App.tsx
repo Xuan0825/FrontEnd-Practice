@@ -1,8 +1,10 @@
 import "./App.css";
+import DigtalClock from "./components/DigtalClock";
 import GridLights from "./components/GridLights";
 import Star from "./components/Star";
 import StartRating from "./components/StartRating";
 import Tab from "./components/Tab";
+import TraficLight from "./components/TraficLight";
 import Temperature from "./components/temperature";
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       {/* <Temperature/> */}
       {/* <Tab /> */}
       {/* <GridLights /> */}
-      <StartRating />
+      {/* <StartRating /> */}
+      {/* <TraficLight /> */}
+      <DigtalClock />
     </div>
   );
 }
