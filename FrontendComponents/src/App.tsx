@@ -1,5 +1,7 @@
 import "./App.css";
 import GridLights from "./components/GridLights";
+import Star from "./components/Star";
+import StartRating from "./components/StartRating";
 import Tab from "./components/Tab";
 import Temperature from "./components/temperature";
 function App() {
@@ -7,7 +9,8 @@ function App() {
     <div>
       {/* <Temperature/> */}
       {/* <Tab /> */}
-      <GridLights />
+      {/* <GridLights /> */}
+      <StartRating />
     </div>
   );
 }

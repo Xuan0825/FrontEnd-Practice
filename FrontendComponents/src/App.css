@@ -31,3 +31,18 @@
   display: flex;
   border: 2px solid black;
 }
+
+.star-icon {
+  --icon-size: 32px;
+  height: var(--icon-size);
+  width: var(--icon-size);
+  cursor: pointer;
+}
+
+.star-icon-filled {
+  fill: yellow;
+}
+
+.StarContainer {
+  display: flex;
+}
