@@ -1,6 +1,7 @@
 import "./App.css";
 import DigtalClock from "./components/DigtalClock";
 import GridLights from "./components/GridLights";
+import JobBoard from "./components/JobBoard";
 import Star from "./components/Star";
 import StartRating from "./components/StartRating";
 import Tab from "./components/Tab";
@@ -14,7 +15,8 @@ function App() {
       {/* <GridLights /> */}
       {/* <StartRating /> */}
       {/* <TraficLight /> */}
-      <DigtalClock />
+      {/* <DigtalClock /> */}
+      <JobBoard />
     </div>
   );
 }
