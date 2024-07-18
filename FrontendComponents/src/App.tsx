@@ -1,4 +1,6 @@
+import React from "react";
 import "./App.css";
+import AutoComplete from "./components/AutoComplete";
 import DigtalClock from "./components/DigtalClock";
 import GridLights from "./components/GridLights";
 import JobBoard from "./components/JobBoard";
@@ -10,6 +12,7 @@ import TraficLight from "./components/TraficLight";
 import TransferList from "./components/TransferList";
 import Carousel from "./components/carousel";
 import Temperature from "./components/temperature";
+import AutoCompletor from "./components/AutoCompletor";
 function App() {
   return (
     <div>
@@ -22,7 +25,9 @@ function App() {
       {/* <JobBoard /> */}
       {/* <TransferList /> */}
       {/* <TicTokToe /> */}
-      <Carousel />
+      {/* <Carousel /> */}
+      <AutoComplete />
+      {/* <AutoCompletor /> */}
     </div>
   );
 }
