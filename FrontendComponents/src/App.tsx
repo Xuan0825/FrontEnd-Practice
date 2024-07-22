@@ -13,6 +13,7 @@ import TransferList from "./components/TransferList";
 import Carousel from "./components/carousel";
 import Temperature from "./components/temperature";
 import AutoCompletor from "./components/AutoCompletor";
+import FileUpload from "./components/FileUpload";
 function App() {
   return (
     <div>
@@ -26,8 +27,9 @@ function App() {
       {/* <TransferList /> */}
       {/* <TicTokToe /> */}
       {/* <Carousel /> */}
-      <AutoComplete />
+      {/* <AutoComplete /> */}
       {/* <AutoCompletor /> */}
+      <FileUpload />
     </div>
   );
 }
