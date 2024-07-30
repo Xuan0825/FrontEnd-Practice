@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./flipcard.css";
 import AutoComplete from "./components/AutoComplete";
 import DigtalClock from "./components/DigtalClock";
 import GridLights from "./components/GridLights";
@@ -14,6 +15,7 @@ import Carousel from "./components/carousel";
 import Temperature from "./components/temperature";
 import AutoCompletor from "./components/AutoCompletor";
 import FileUpload from "./components/FileUpload";
+import FlipCard from "./components/FlipCard";
 function App() {
   return (
     <div>
@@ -29,7 +31,8 @@ function App() {
       {/* <Carousel /> */}
       {/* <AutoComplete /> */}
       {/* <AutoCompletor /> */}
-      <FileUpload />
+      {/* <FileUpload /> */}
+      <FlipCard />
     </div>
   );
 }
