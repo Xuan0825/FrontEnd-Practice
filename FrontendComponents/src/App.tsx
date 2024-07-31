@@ -16,6 +16,7 @@ import Temperature from "./components/temperature";
 import AutoCompletor from "./components/AutoCompletor";
 import FileUpload from "./components/FileUpload";
 import FlipCard from "./components/FlipCard";
+import TodoApp from "./components/todo/todo";
 function App() {
   return (
     <div>
@@ -32,7 +33,8 @@ function App() {
       {/* <AutoComplete /> */}
       {/* <AutoCompletor /> */}
       {/* <FileUpload /> */}
-      <FlipCard />
+      {/* <FlipCard /> */}
+      <TodoApp />
     </div>
   );
 }
