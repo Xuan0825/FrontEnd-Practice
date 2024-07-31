@@ -43,7 +43,6 @@ export default function TodoList() {
 
   const handleDelete = (index) => {
     const newTodos = todos.filter((item) => index !== item.id);
-
     setTodos(newTodos);
   };
   return (
