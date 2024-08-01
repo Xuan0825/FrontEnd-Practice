@@ -17,6 +17,7 @@ import AutoCompletor from "./components/AutoCompletor";
 import FileUpload from "./components/FileUpload";
 import FlipCard from "./components/FlipCard";
 import TodoApp from "./components/todo/todo";
+import SignupForm from "./components/SignupForm";
 function App() {
   return (
     <div>
@@ -34,7 +35,8 @@ function App() {
       {/* <AutoCompletor /> */}
       {/* <FileUpload /> */}
       {/* <FlipCard /> */}
-      <TodoApp />
+      {/* <TodoApp /> */}
+      <SignupForm />
     </div>
   );
 }
