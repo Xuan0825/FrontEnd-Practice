@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { fetchSixData, fetchjobID } from "../utils/fetchJob";
+import { fetchQ } from "../utils/fetchq";
 
 export default function JobBoard() {
   const [idArray, setIdArray] = useState([]);
@@ -23,6 +24,7 @@ export default function JobBoard() {
       }
     }
     fetch();
+    fetchQ();
   }, []);
 
   const handleLoadMore = async () => {

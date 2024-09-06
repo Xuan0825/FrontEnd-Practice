@@ -18,6 +18,7 @@ import FileUpload from "./components/FileUpload";
 import FlipCard from "./components/FlipCard";
 import TodoApp from "./components/todo/todo";
 import SignupForm from "./components/SignupForm";
+import TransferTeam from "./components/TransferTeam";
 function App() {
   return (
     <div>
@@ -36,7 +37,8 @@ function App() {
       {/* <FileUpload /> */}
       {/* <FlipCard /> */}
       {/* <TodoApp /> */}
-      <SignupForm />
+      {/* <SignupForm /> */}
+      <TransferTeam />
     </div>
   );
 }
