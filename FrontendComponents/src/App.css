@@ -145,3 +145,38 @@ button {
   align-items: center;
   justify-content: center;
 }
+
+.calendar-container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 定义 7 列 */
+  grid-gap: 5px;
+}
+
+.calendar-day {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calendar-day:hover {
+  background-color: #f0f0f0;
+}
+
+.selected-day {
+  background-color: blue;
+  color: white;
+}
